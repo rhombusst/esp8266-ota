@@ -1,0 +1,47 @@
+{
+  "packages": [
+    {
+      "name": "myesp",
+      "maintainer": "Samarth",
+      "websiteURL": "https://github.com/rhombusst/esp8266-ota",
+      "help": {
+        "online": "https://github.com/rhombusst/esp8266-ota"
+      },
+      "platforms": [
+        {
+          "name": "My ESP8266 OTA",
+          "architecture": "esp8266",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/rhombusst/esp8266-ota/releases/download/v1.0.0/myesp-1.0.0.zip",
+          "archiveFileName": "myesp-1.0.0.zip",
+
+          "checksum": "SHA-256:1736966e051ec584e0572ee750d2fd5c3876e41e6407eed9d0c744fbc7eeaac8",
+
+          "size": "188",
+
+          "boards": [
+            {
+              "name": "My ESP8266 OTA Board"
+            }
+          ],
+
+          "toolsDependencies": [
+            {
+              "packager": "esp8266",
+              "name": "xtensa-lx106-elf-gcc",
+              "version": "3.0.4-gcc10.3-1757bed"
+            },
+            {
+              "packager": "esp8266",
+              "name": "esptool",
+              "version": "3.0.0"
+            }
+          ]
+        }
+      ],
+
+      "tools": []
+    }
+  ]
+}
