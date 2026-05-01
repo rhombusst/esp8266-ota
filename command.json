@@ -1,5 +1,1 @@
-{
-  "update": false,
-  "stop": false,
-  "status": "idle"
-}
+{"update": true, "stop": false, "status": "starting"}
